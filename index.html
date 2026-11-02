@@ -1,139 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <script src="https://kit.fontawesome.com/d51210834e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myPortfolioWebsite</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mbah Hosea Njeck — Software Developer for Websites, Mobile Apps &amp; Software Solutions</title>
+  <meta name="description" content="Mbah Hosea Njeck is a Software Engineering developer building professional websites, Flutter mobile apps and custom software. Open to junior developer roles, internships and client projects.">
+  <meta name="author" content="Mbah Hosea Njeck">
+  <meta name="theme-color" content="#0b0f14">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mbah Hosea Njeck — I Build Websites, Mobile Apps &amp; Software Solutions">
+  <meta property="og:description" content="Software Engineering developer open to employment and client projects. Websites, Flutter mobile apps and custom software.">
+  <meta property="og:image" content="images/profile.jpg">
+  <!-- TODO: add <meta property="og:url" content="https://your-domain"> and <link rel="canonical"> once deployed -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
-<body class="body">
-    <header class="header">
-        <nav>
-            <div class="logo">MBAH HOSEA</div>
-            <ul class=" nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href=>MyProject</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href=>Certifications</a></li>
-                <li><a href="#contact">contact Me</a></li>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Mbah Hosea Njeck, back to top">Hosea<span>.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#learning">Learning</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>Software Developer · Open to work</p>
+          <h1>I Build Websites,<br>Mobile Apps &amp;<br><span class="grad">Software Solutions.</span></h1>
+          <p class="typed" aria-hidden="true"><span class="prompt">~/hosea $</span> <span id="typed">business websites</span><span class="cursor"></span></p>
+          <p class="hero-name">Mbah Hosea Njeck</p>
+          <p class="lead">I'm a Software Engineering developer with an HND completed and a BSc in progress. I build professional websites, Flutter mobile apps and custom software for businesses and individuals, and I'm open to junior developer and software engineer roles, internships and client projects.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#projects">View My Projects</a>
+            <a class="btn btn-secondary" href="#contact">Let's Work Together</a>
+          </div>
+          <ul class="social-row" aria-label="Professional profiles">
+            <li>
+              <a href="https://github.com/Mbah-Hosea" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.16 1.18a10.9 10.9 0 0 1 5.76 0c2.19-1.49 3.16-1.18 3.16-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.08 0 4.41-2.7 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mbah-hosea-njeck-88849334b/" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero-photo">
+          <!-- Replace images/profile.jpg with your photograph (portrait, ~800x1000px, under 200KB) -->
+          <div class="img-frame" data-label="Add your photo: images/profile.jpg">
+            <img src="images/profile.jpg" alt="Portrait of Mbah Hosea Njeck" width="800" height="1000" fetchpriority="high">
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container narrow">
+        <h2 class="section-title"><span class="num">01</span> About</h2>
+        <div class="prose">
+          <p>I've completed my HND in Software Engineering and I'm now pursuing my BSc in the same field. I'm an aspiring professional software developer who enjoys solving practical problems through technology: finding something people struggle with and building a tool that makes it easier.</p>
+          <p>I've worked on web and mobile projects, including a website for a construction business, a Flutter app that's currently in development, and a collaborative platform I'm contributing to. Each one has taught me as much about planning, communication and teamwork as it has about code.</p>
+          <p>I like understanding why tools work the way they do, and I'm continuing to build my skills in backend development, cloud computing and software architecture. I'm looking for a junior developer or software engineer role, and I'm also open to freelance and client projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <h2 class="section-title"><span class="num">02</span> Services</h2>
+        <p class="section-note">I'm early in my career, so I take on projects I can deliver well and I'm upfront about scope and timelines.</p>
+        <div class="services-grid">
+          <article class="service">
+            <h3>Business Website Development</h3>
+            <p>Professional websites for businesses, organizations and personal brands.</p>
+          </article>
+          <article class="service">
+            <h3>Mobile Application Development</h3>
+            <p>Mobile applications using Flutter and Dart to solve practical problems.</p>
+          </article>
+          <article class="service">
+            <h3>Custom Software Solutions</h3>
+            <p>Tailored software systems and web-based applications designed around specific needs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title"><span class="num">03</span> Technical Skills</h2>
+        <p class="section-note">Technologies I've used in my projects and studies. I'm still growing in each of them, and React is something I'm currently learning.</p>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Programming Languages</h3>
+            <ul class="chips">
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" width="18" height="18" loading="lazy">JavaScript</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" width="18" height="18" loading="lazy">Python</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="" width="18" height="18" loading="lazy">Dart</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="" width="18" height="18" loading="lazy">SQL</li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <div id="home">
-            <h1 class="h">Welcome to My Portfolio Website</h1>
-            <h1 class="intro">Hi, I'm <em>MBAH HOSEA</em><br>
-            </h1>
-            <p> A passionate Software Engineering student building practical web and
-                mobile solutions</p>
-            <p><em>Feel free to explore my work and get in touch!</em></p>
-            <div class="profile">
-                <img src="photo.png" alt="My Photo" class="photo">
+          </div>
+          <div class="skill-group">
+            <h3>Web Development</h3>
+            <ul class="chips">
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" width="18" height="18" loading="lazy">HTML5</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" width="18" height="18" loading="lazy">CSS3</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" width="18" height="18" loading="lazy">JavaScript</li>
+              <li class="learning"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" width="18" height="18" loading="lazy">React <small>currently learning</small></li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Mobile Development</h3>
+            <ul class="chips">
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="" width="18" height="18" loading="lazy">Flutter</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="" width="18" height="18" loading="lazy">Dart</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Backend &amp; Databases</h3>
+            <ul class="chips">
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" width="18" height="18" loading="lazy">Node.js</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="" width="18" height="18" loading="lazy">Express.js</li>
+              <li>REST APIs</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" width="18" height="18" loading="lazy">PostgreSQL</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" width="18" height="18" loading="lazy">MySQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools &amp; Environment</h3>
+            <ul class="chips">
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" width="18" height="18" loading="lazy">Git</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" width="18" height="18" loading="lazy">GitHub</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="" width="18" height="18" loading="lazy">VS Code</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="" width="18" height="18" loading="lazy">Android Studio</li>
+              <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="" width="18" height="18" loading="lazy">Postman</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <h2 class="section-title"><span class="num">04</span> Projects</h2>
+
+        <h3 class="subhead">Completed</h3>
+
+        <!-- COMPLETED PROJECT: MCK -->
+        <article class="project featured">
+          <div class="project-media">
+            <div class="img-frame wide" data-label="Add screenshot: images/mck-construction.png">
+              <img src="images/mck-construction.png" alt="Screenshot of the MCK Construction website" width="1440" height="900" loading="lazy">
             </div>
-        </div>
-    </main>
-    <section id="about">
-        <h1>About Me</h1>
-        <p>Hi, I'm Mbah Hosea, a passionate software engineering student with a growing interest in building real-world
-            tech solutions that make life easier. I enjoy creating modern, responsive websites and mobile apps, and I’m
-            currently diving deeper into Flutter, web development, and cybersecurity.</p>
-
-        <p> I believe in learning by doing, which is why I take on projects that challenge me—from transport tracking
-            apps to school management systems. I'm also continuously improving my skills in HTML, CSS, JavaScript,
-            Python, and SQL.</p>
-
-        <p>When I’m not coding, I enjoy exploring new tech trends, engaging in ethical hacking exercises, and sharing
-            what I learn with others.</p>
-    </section>
-    <section id="skills">
-        <h1 style="text-align: center;">Skills</h1>
-        <div>
-            <h3>Programming languages</h3>
-            <p>Python, JavaScript, C++, SQL
-            </p>
-        </div>
-        <div class="techskills">
-            <h3>Technical Skills</h3>
-            <p><u>Web Development:</u><br><em>HTML5, CSS3, Responsive Web Design, Flexbox,</em>
-                Manipulation
-            </p>
-        </div>
-        <div class="app">
-            <h3>Mobile App Development</h3>
-            <p><em>Flutter (Dart)</em>, <em> Integration</em>, <em>Google Maps API</em>
-            </p>
-        </div>
-        <div class="data">
-            <h3>Database Management</h3>
-            <p><em>MySQL</em>,Database Design, Advanced SQL Queries, Data Normalization
-
-            </p>
-        </div>
-        <div class="cyber">
-            <h3>Cyber Security fundamental</h3>
-            <ul>
-                <li>Ethical hacking basics</li>
-                <li>Linux Terminal & Shell Sripting</li>
-                <li>Basic CTF Challengess</li>
-                <li>System Permissions</li>
+          </div>
+          <div class="project-body">
+            <div class="project-head">
+              <h4>MCK Construction Website</h4>
+              <span class="badge badge-success">Completed</span>
+            </div>
+            <p>A professional website developed for a construction business to establish its online presence and showcase its services, projects and business information.</p>
+            <p>It was designed to give the business a professional digital identity and make its services more accessible to potential clients.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <!-- TODO: replace with the technologies actually used -->
+              <li class="placeholder">Technologies: to be confirmed</li>
             </ul>
-        </div>
-        <div class="tools">
-            <h3>Tools and Technologies</h3>
-            <ul>
-                <li>Git & Github</li>
-                <li>VS Code</li>
-                <li>Android Studio</li>
-                <li>Command Line Interface</li>
-            </ul>
-        </div>
-        <div class="languages">
-            <h3>Languages</h3>
-            <ul>
-                <li>English(fluent)</li>
-                <li>French(professional)</li>
-            </ul>
-        </div>
-        <div class="soft-skills">
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Effective Communication</li>
-                <li>Quick Learning and adaptale</li>
-                <li>Team Collaboration</li>
-                <li>Research-Oriented</li>
-                <li>Initiatibve & Self-Motivation</li>
-            </ul>
-        </div>
-    </section>
-    <section id="resume">
-        <h3>Resume</h3>
-        <h4>you can download my full resume below:</h4>
-        <a href="MbahHoseaResume.docx" onclick='alert("download Resume?")'><button>DOWNLOAD RESUME</button></a>
+            <div class="project-links">
+              <!-- TODO: replace href="#" with the real URLs and remove the "is-placeholder" class -->
+              <a class="link-arrow is-placeholder" href="#" data-note="Live site link coming soon" target="_blank" rel="noopener noreferrer">Live website</a>
+              <a class="link-arrow is-placeholder" href="#" data-note="Repository link coming soon" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+            </div>
+          </div>
+        </article>
 
+        <h3 class="subhead">Currently in development</h3>
 
-    </section>
-    <section id="contact">
-        <h3>contact me</h3>
-        <fieldset>
-            <h4>Feel free to contact me </h4>
+        <div class="project-list">
+          <!-- IN DEVELOPMENT 1 -->
+          <article class="project">
+            <div class="project-media">
+              <div class="img-frame" data-label="Add screenshot: images/lost-and-found.png">
+                <img src="images/lost-and-found.png" alt="Preview of the Lost and Found Management System" width="1200" height="800" loading="lazy">
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-head">
+                <h4>Lost and Found Management System</h4>
+                <span class="badge badge-warning">In Development</span>
+              </div>
+              <p class="collab">Collaborative project · built with other contributors</p>
+              <p>A digital platform designed to help people report, search for and recover lost items. It aims to make connecting people who have lost belongings with people who have found them easier, more organised and accessible.</p>
+              <!-- TODO: add your specific role and contributions here once confirmed -->
+              <p class="editable-note">My contribution: <em>to be added.</em></p>
+              <ul class="tags" aria-label="Technologies used">
+                <li class="placeholder">Technologies: to be confirmed</li>
+              </ul>
+              <div class="project-links">
+                <a class="link-arrow is-placeholder" href="#" data-note="Repository link coming soon" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+              </div>
+            </div>
+          </article>
 
-            <p><i class="fa-solid fa-envelope"></i><a href="mailto:hoseambah722@gmail.com">:Send Mail</a></p>
-            <p><i class="fa-solid fa-phone"></i><a href="tel:+237676148177">:Call Now</a></p>
-            <p><i class="fa-brands fa-square-whatsapp"></i><a href="https://wa.me/237676148177" target="_blank">:Chat On
-                    WhatsAAP</a></p>
-            <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/mbah-hosea-njeck-88849334b"
-                    target="_blank">Connect</a></p>
-        </fieldset>
+          <!-- IN DEVELOPMENT 2 -->
+          <article class="project">
+            <div class="project-media">
+              <div class="img-frame tall" data-label="Add screenshot: images/accommodation-finder.png">
+                <img src="images/accommodation-finder.png" alt="Screenshot of the Accommodation Finder mobile app" width="800" height="1000" loading="lazy">
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-head">
+                <h4>Accommodation Finder</h4>
+                <span class="badge badge-warning">In Development</span>
+              </div>
+              <p class="collab">Mobile app · landlord and tenant connection platform</p>
+              <p>A mobile application focused on connecting landlords and prospective tenants through a more accessible digital platform. It aims to simplify accommodation discovery and communication between landlords and people searching for rental properties.</p>
+              <ul class="tags" aria-label="Technologies used">
+                <li>Flutter</li>
+                <li>Dart</li>
+              </ul>
+              <div class="project-links">
+                <a class="link-arrow is-placeholder" href="#" data-note="Repository link coming soon" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+              </div>
+            </div>
+          </article>
 
+          <!--
+            ADD A NEW PROJECT: copy one <article class="project"> block above,
+            paste it here, then change the image, title, badge, text, tags and links.
+          -->
+        </div>
+      </div>
     </section>
 
+    <!-- LEARNING -->
+    <section class="section" id="learning">
+      <div class="container narrow">
+        <h2 class="section-title"><span class="num">05</span> Currently Learning</h2>
+        <ul class="chips plain">
+          <li>Advanced JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Backend Engineering</li>
+          <li>Cloud Computing</li>
+          <li>Software Architecture</li>
+          <li>Internet of Things (IoT)</li>
+          <li>ESP32</li>
+        </ul>
+      </div>
+    </section>
 
+    <!-- CONTACT -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title"><span class="num">06</span> Have a project in mind? Let's build it.</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="lead">Whether you're hiring, need a website for your business, or have an app or software idea, I'd be glad to hear from you. I'm currently available for:</p>
+            <ul class="chips plain availability" aria-label="Availability">
+              <li>Employment opportunities</li>
+              <li>Freelance website development</li>
+              <li>Mobile application projects</li>
+              <li>Custom software development</li>
+              <li>Technical collaborations</li>
+            </ul>
+            <ul class="contact-list">
+              <li>
+                <span>Email</span>
+                <!-- TODO: replace YOUR_EMAIL@example.com here, in the form's data-email attribute below, and nowhere else -->
+                <a href="mailto:YOUR_EMAIL@example.com" data-email-link>YOUR_EMAIL@example.com</a>
+              </li>
+              <li>
+                <span>WhatsApp</span>
+                <!-- TODO: replace 237XXXXXXXXX with your number: country code + number, digits only, no + or spaces -->
+                <a href="https://wa.me/237XXXXXXXXX" target="_blank" rel="noopener noreferrer" data-whatsapp>Message me on WhatsApp</a>
+              </li>
+              <li>
+                <span>GitHub</span>
+                <a href="https://github.com/Mbah-Hosea" target="_blank" rel="noopener noreferrer">github.com/Mbah-Hosea</a>
+              </li>
+              <li>
+                <span>LinkedIn</span>
+                <a href="https://www.linkedin.com/in/mbah-hosea-njeck-88849334b/" target="_blank" rel="noopener noreferrer">Mbah Hosea Njeck</a>
+              </li>
+            </ul>
+          </div>
+
+          <!--
+            This form has no backend. By default it opens the visitor's email app with the message prefilled.
+            To receive messages directly, set data-endpoint to a form service URL (e.g. Formspree) — see README.md.
+          -->
+          <form class="contact-form" id="contact-form" novalidate data-email="YOUR_EMAIL@example.com" data-endpoint="">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">Mbah Hosea Njeck</p>
+        <p class="footer-note">Open to employment and client projects. Always learning, always building.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://github.com/Mbah-Hosea" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/mbah-hosea-njeck-88849334b/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+      <p class="copyright">&copy; <span id="year">2026</span> Mbah Hosea Njeck</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
-
 </html>
